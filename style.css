@@ -1,0 +1,81 @@
+body {
+    padding: 5px;
+    margin: 0;
+    background-color: palevioletred;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=phoneNumber],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: palevioletred;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.Regbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: blueviolet;
+}
+
+
+.error_message {
+    color: red;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success_message {
+    color: burlywood;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    padding: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .Regbtn {
+        width: 100%;
+    }
+}
